@@ -1,0 +1,84 @@
+html
+{
+    border-style: solid;
+    border-width: 60px;
+    border-color: #f3d352;
+
+}
+body
+{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #000000;
+
+}
+h1
+{
+     text-align: center;
+     font-size: 120px;
+     color: #f3d352;
+
+}
+/* Style the top navigation bar */
+.navbar {
+  font-size: 40px;
+  overflow: hidden; /* Hide overflow */
+  background-color: #f3d352; /* white background color */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block */
+  color: black; /* Black text color */
+  text-align: center; /* Center the text */
+  padding-right: 50px;
+  text-decoration: none; /* Remove underline */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #faf7a3 ; /* white background color */
+  color: black; /* Black text color */
+}
+.column {
+  float: left;
+  width: 33.333%;
+}
+
+h2
+{
+     text-align: left;
+     font-size: 40px;
+     color: #fe1d3b;
+     padding-up: 10px;
+
+}
+h3
+{
+     text-align: center;
+     font-size: 30px;
+     color: #000000;
+     padding-up: 20px;     
+}
+pre
+{
+     font-size: 20px;
+
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.rectangle {
+  height: 3px;
+  width: 600px;
+  background-color: #f3d352;
+}

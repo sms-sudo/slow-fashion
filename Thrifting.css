@@ -1,0 +1,509 @@
+body{
+	font-family: 'Palatino', sans-serif;
+	background: #bedaba
+}
+p{
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+p1{
+	font-size: 20px;
+	font-family: 'Trebuchet MS', sans-serif;
+	color: #010101;
+}
+p2{
+	font-size: 18px;
+	font-family: 'Trebuchet MS', sans-serif;
+	color: #666666;
+}
+a{
+	font-family: 'Palatino', sans-serif;
+	color: #004d26;
+	text-decoration: none;
+}
+h7{
+	font-size: 35px;
+	font-family: 'Palatino', sans-serif;
+	color: black
+}
+
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Palatino', sans-serif;
+	colour: #004d26;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: white;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: black;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  color: black;
+  background: #fff;
+
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column {
+  float: left;
+  width: 33.333%;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.rectangle {
+  height: 3px;
+  width: 600px;
+  background-color: #004d26;
+}
+/*Header*/
+.navbar{
+	background: #004d26
+}
+.navbar-default .navbar-nav>li>a {
+color: #fff;
+text-transform: uppercase;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #777;
+}
+header{
+	background: url("https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.section_overlay{
+	background: rgba(250,250,250, .6);
+}
+.home_text{
+	padding-top: 210px;
+	padding-bottom: 210px;
+}
+.home_text h2{
+	color: #010101;
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: 13px;
+}
+.home_text p{
+	color: #010101;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.home_text img{}
+.scroll_down{
+	padding-bottom: 50px;
+}
+.scroll_down h4{
+	font-size: 12px;
+	color: #000;
+	font-family: 'Trebuchet MS', sans-serif;
+	text-transform: uppercase;
+}
+
+
+/*Thrift*/
+.Thrift{
+	padding-top: 20px;
+
+}
+.Thrift .container{
+	border-bottom: 1px solid #ff99bb;
+}
+.single_thrift{
+	padding-bottom: 96px;
+}
+.single_thrift i{
+	font-size: 25px;
+	color: #afe4ff;
+}
+.single_thrift h2{
+	color: #000000;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+.single_thrift p{
+	color: #404040;
+	font-size: 14px;
+}
+
+*Thrift*/
+.Thrift{
+	padding-top: 20px;
+
+}
+.Thrift .container{
+	border-bottom: 1px solid #ff99bb;
+}
+.single_thrift{
+	padding-bottom: 96px;
+}
+.single_thrift i{
+	font-size: 25px;
+	color: #afe4ff;
+}
+.single_thrift h2{
+	color: #000000;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+.single_thrift p{
+	color: #404040;
+	font-size: 14px;
+}
+
+.single_progress_bar .progress {
+height: 1px;
+margin-bottom: 20px;
+overflow: hidden;
+background-color: #ff3377;
+border-radius: 0px;
+-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+.single_progress_bar .progress-bar {
+background-color: #ff99bb;
+}
+.single_progress_bar h2{
+	color: 000;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+.fashion_p{
+	font-size: 24px;
+	color: #272727;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 21px;
+}
+.fashion_title h2{
+	font-size: 25px;
+	color: #3d3d3d;
+	text-transform: uppercase;
+	margin-top: 85px;
+	letter-spacing: 6px;
+	margin-bottom: 21px;
+}
+.fashion_title img{
+	margin-bottom: 70px;
+}
+.no_padding{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.padding{
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+.imac{
+position: relative;
+margin-top: -40px;	
+}
+.imac img{
+	width: 100%;
+}
+
+@media(max-width: 767px){
+	.imac{
+		margin-top: 20px
+	}
+}
+.single_image{
+	margin-right: 3px;
+	position: relative;
+	transition: all 1s;
+}
+.single_image img{
+	width: 100%;
+
+}
+.single_image:hover div.image_overlay{
+	opacity: 1;
+}
+
+.image_overlay{
+position: absolute;
+width: 100%;
+height: 100%;
+background: rgba(247,77,101,.9);
+left: 0;
+top: 0;
+opacity: 0;
+	transition: all 1s;
+
+}
+.image_overlay a{
+position: absolute;
+top: 20px;
+right: 20px;
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;	
+}
+.image_overlay h2{
+position: absolute;
+bottom: 28px;
+left: 20px;
+font-size: 25px;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: 3px;	
+}
+.image_overlay h4{
+position: absolute;
+bottom: 11px;
+left: 20px;
+color: #fff;
+font-size: 14px;
+text-transform: uppercase;	
+}
+.no_padding{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.work_title{}
+.work_title h1, .contact_title h1{
+	font-size: 25px;
+	color: #3d3d3d;
+	letter-spacing: 5px;
+	padding-top: 80px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.work_title img, .contact_title img{
+	margin-bottom: 30px;
+}
+.work_title p, .contact_title p{
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 100px;
+}
+.last_padding {
+	padding-right: 0px;
+}
+.pad_top {
+	padding-top: 2px;
+}
+.left h2{
+	margin-top: 60px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+}
+.left p{
+	margin-bottom: 60px;
+	font-size: 14px;
+	color: #000;
+}
+.baton{
+	margin-top: 65px;
+}
+.cs-btn, .cs-btn:active, .cs-btn:visited, .cs-btn:focus{
+	color: #fff;
+	background-color: #000;
+	border-radius: 0px;
+	outline: none;
+	padding: 10px 40px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: all 1s;
+}
+.cs-btn:hover{
+	background: #afe4ff;
+	border-color: #afe4ff;
+}
+.call_to_action .container{
+	padding-bottom: 60px;
+	border-bottom: 1px solid #ddd;
+}
+
+/*Contact*/
+
+.single_contact_info{
+padding-bottom: 21px;	
+}
+.single_contact_info h2{
+text-transform: uppercase;
+color: #3d3d3d;
+font-size: 18px;
+letter-spacing: 3px;
+margin-bottom: 1px;	
+}
+.single_contact_info p{
+font-size: 15px;
+color: #3d3d3d;	
+}
+
+
+
+
+
+
+.work-with {
+padding-bottom: 60px;
+padding-top: 10px;
+}
+.work-with h3{
+	font-size: 14px;
+	color: #636363;
+	text-transform: uppercase;
+}
+
+
+
+/*Footer*/
+footer{
+	background-color: #f1f1f1;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.footer_logo{}
+.footer_logo img{}
+.social{
+	padding-top: 65px;
+}
+.social h2{
+text-transform: uppercase;
+font-size: 16px;	
+}
+ul.icon_list{
+margin: 0;
+padding: 0;
+list-style: none;
+text-align: center;
+margin-top: 20px;
+}
+ul.icon_list li{
+display: inline;
+padding-left: 3px;
+padding-right: 3px;
+}
+ul.icon_list li a{
+display: inline-block;
+color: #636363;
+border: 1px solid #636363;
+border-radius: 50%;
+text-align: center;
+width: 30px;
+height: 30px;
+text-align: center;
+line-height: 28px;
+transition: all 1s;
+}
+ul.icon_list li a:hover{
+	color: #afe4ff;
+	border-color:#afe4ff; 
+}
+.copyright_text{
+padding-top: 80px;	
+}
+.copyright_text p{
+color: #636363;
+font-size: 14px;
+text-transform: uppercase;
+margin-bottom: 0px;
+letter-spacing: 0px;
+}
+.copyright_text a{
+	color:#afe4ff;
+	text-transform:uppercase;
+	font-weight:700;
+	text-decoration:none;
+	}

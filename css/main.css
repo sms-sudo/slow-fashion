@@ -1,0 +1,509 @@
+body{
+	font-family: 'Palatino', sans-serif;
+	background: #bedaba;
+}
+p{
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+p1{
+	font-size: 20px;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+p2{
+	font-size: 18px;
+	font-family: 'Trebuchet MS', sans-serif;
+	color: #666666;
+}
+a{
+	font-family: 'Palatino', sans-serif;
+	color: #fff;
+	text-decoration: none;
+}
+a .hover{
+
+	font-family: 'Palatino', sans-serif;
+	color: #777;
+	text-decoration: none;
+}
+
+h7{
+	font-size: 35px;
+	font-family: 'Palatino', sans-serif;
+	color: black
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Palatino', sans-serif;
+}
+
+
+/*Header*/
+.navbar{
+	background: #004d26
+}
+.navbar-default .navbar-nav>li>a {
+color: #fff;
+text-transform: uppercase;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #777;
+}
+header{
+	background: url("logan&finley.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.section_overlay{
+	background: rgba(250,250,250, .6);
+}
+.home_text{
+	padding-top: 210px;
+	padding-bottom: 210px;
+}
+.home_text h2{
+	color: #010101;
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: 13px;
+}
+.home_text p{
+	color: #404040;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.home_text img{}
+.scroll_down{
+	padding-bottom: 50px;
+}
+.scroll_down h4{
+	font-size: 12px;
+	color: #000;
+	font-family: 'Trebuchet MS', sans-serif;
+	text-transform: uppercase;
+}
+
+
+/*Game*/
+.Game{
+	padding-top: 20px;
+
+}
+.Game .container{
+	border-bottom: 1px solid #ff99bb;
+}
+.single_game{
+	padding-bottom: 96px;
+}
+.single_game i{
+	font-size: 25px;
+	color: #afe4ff;
+}
+.single_game h2{
+	color: #000000;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+.single_game p{
+	color: #404040;
+	font-size: 14px;
+}
+.single_progress_bar .progress {
+height: 1px;
+margin-bottom: 20px;
+overflow: hidden;
+background-color: #ff3377;
+border-radius: 0px;
+-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+.single_progress_bar .progress-bar {
+background-color: #ff99bb;
+}
+.single_progress_bar h2{
+	color: 000;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+/* Set the colours, font, padding etc. of the buttons*/
+button {
+	border-radius: 20px;
+	border: 1px solid #C2E0EF;
+	background-color: #004d26;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 30px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+
+.sign-up-container {
+	left: 0;
+	width: 50%;
+	opacity: 0;
+	z-index: 1;
+}
+
+/*Fashion*/
+.fashion{
+	padding-top: 20px;
+
+}
+.fashion .container{
+	border-bottom: 1px solid #ff99bb;
+}
+
+.fashion_p{
+	font-size: 24px;
+	color: #272727;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 21px;
+}
+.fashion_title h2{
+	font-size: 25px;
+	color: #3d3d3d;
+	text-transform: uppercase;
+	margin-top: 85px;
+	letter-spacing: 6px;
+	margin-bottom: 21px;
+}
+.about_title img{
+	margin-bottom: 70px;
+}
+/*Testimonial*/
+.testimonial{
+		padding-top: 130px;
+	padding-bottom: 80px;
+}
+.testimonial{
+
+}
+.testimonial .icon:after{
+	content: "";
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	background-color: #afe4ff;
+	top: 110px;
+	left: 50%;
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	margin-left: -40px;
+
+}
+.testimonial .icon i{
+color: #fff;
+font-size: 47px;
+position: absolute;
+z-index: 555;
+left: 50%;
+margin-left: -23px;
+
+
+}
+.single_testimonial p{
+color: #404040;
+font-size: 18px;
+font-family: 'Palatino', sans-serif;
+letter-spacing: 1px;
+padding-top: 110px;
+
+}
+.single_testimonial h4{
+	color: #404040;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'Trebuchet MS', sans-serif;
+	letter-spacing: 1px
+}
+
+
+
+/*Fun Facts*/
+.fun_facts{
+	background: url("https://i.pinimg.com/originals/d6/a0/8b/d6a08be4b30dcab3266224179ba91a0d.jpg");
+	background-attachment: fixed !important;
+	background-repeat: repeat;
+
+}
+.fun_facts .section_overlay{
+background: rgba(250,250,250, .6)
+padding-bottom: 30px;
+}
+.single_count{
+padding-top: 120px;
+}
+.single_count i{
+	color: #afe4ff;
+	font-size: 24px;
+}
+.single_count h3{
+font-family: 'Trebuchet MS', sans-serif;
+color: #fff;
+font-size: 40px;
+font-weight: bold;
+margin-bottom: 0px;
+}
+.single_count p{
+font-family: 'Palatino', sans-serif;
+color: #fff;
+font-size: 14px;
+text-transform: uppercase;
+position: relative;
+}
+.single_count p:before{
+content: "";
+position: absolute;
+width: 16px;
+height: 1px;
+left: 0;
+bottom: -4px;
+background: #ef4251;
+}
+.imac{
+position: relative;
+margin-top: -40px;
+}
+.imac img{
+	width: 100%;
+}
+
+@media(max-width: 767px){
+	.imac{
+		margin-top: 20px
+	}
+}
+.single_image{
+	margin-right: 3px;
+	position: relative;
+	transition: all 1s;
+}
+.single_image img{
+	width: 100%;
+
+}
+.single_image:hover div.image_overlay{
+	opacity: 1;
+}
+
+.image_overlay{
+position: absolute;
+width: 100%;
+height: 100%;
+background: #ffeecc;
+left: 0;
+top: 0;
+opacity: 0;
+	transition: all 1s;
+
+}
+.image_overlay a{
+position: absolute;
+top: 20px;
+right: 20px;
+color: #000;
+text-decoration: none;
+text-transform: uppercase;
+}
+.image_overlay h2{
+position: absolute;
+bottom: 28px;
+left: 20px;
+font-size: 35px;
+color: #000;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+.image_overlay h4{
+position: absolute;
+bottom: 11px;
+left: 20px;
+color: #000;
+font-size: 14px;
+text-transform: uppercase;
+}
+.no_padding{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.work_title{}
+.work_title h1, .contact_title h1{
+	font-size: 25px;
+	color: #3d3d3d;
+	letter-spacing: 5px;
+	padding-top: 80px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.work_title img, .contact_title img{
+	margin-bottom: 30px;
+}
+.work_title p, .contact_title p{
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 100px;
+}
+.last_padding {
+	padding-right: 0px;
+}
+.pad_top {
+	padding-top: 2px;
+}
+.left h2{
+	margin-top: 60px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+}
+.left p{
+	margin-bottom: 60px;
+	font-size: 14px;
+	color: #000;
+}
+.baton{
+	margin-top: 65px;
+}
+.cs-btn, .cs-btn:active, .cs-btn:visited, .cs-btn:focus{
+	color: #fff;
+	background-color: #000;
+	border-radius: 0px;
+	outline: none;
+	padding: 10px 40px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: all 1s;
+}
+.cs-btn:hover{
+	background: #afe4ff;
+	border-color: #afe4ff;
+}
+.call_to_action .container{
+	padding-bottom: 60px;
+	border-bottom: 1px solid #ddd;
+}
+
+/*Contact*/
+
+.single_contact_info{
+padding-bottom: 21px;
+}
+.single_contact_info h2{
+text-transform: uppercase;
+color: #3d3d3d;
+font-size: 18px;
+letter-spacing: 3px;
+margin-bottom: 1px;
+}
+.single_contact_info p{
+font-size: 15px;
+color: #3d3d3d;
+}
+
+
+
+
+
+
+.contact-form{
+background-color: #cce6ff;
+padding: 30px;
+}
+.contact-form .form-control{
+height: 43px;
+border-radius: 0px;
+margin-bottom: 20px;
+border: 0px solid #fff;
+}
+.contact-form #message{
+	height: 104px;
+}
+.form_submit{
+width: 100%;
+background: #afe4ff;
+border-radius: 0px;
+color: #fff;
+padding-top: 13px;
+padding-bottom: 10px;
+transition: all 1s;
+}
+
+
+.work-with {
+padding-bottom: 60px;
+padding-top: 10px;
+}
+.work-with h3{
+	font-size: 14px;
+	color: #636363;
+	text-transform: uppercase;
+}
+
+
+
+/*Footer*/
+footer{
+	background-color: #f1f1f1;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.footer_logo{}
+.footer_logo img{}
+.social{
+	padding-top: 65px;
+}
+.social h2{
+text-transform: uppercase;
+font-size: 16px;
+}
+ul.icon_list{
+margin: 0;
+padding: 0;
+list-style: none;
+text-align: center;
+margin-top: 20px;
+}
+ul.icon_list li{
+display: inline;
+padding-left: 3px;
+padding-right: 3px;
+}
+ul.icon_list li a{
+display: inline-block;
+color: #636363;
+border: 1px solid #636363;
+border-radius: 50%;
+text-align: center;
+width: 30px;
+height: 30px;
+text-align: center;
+line-height: 28px;
+transition: all 1s;
+}
+ul.icon_list li a:hover{
+	color: #afe4ff;
+	border-color:#afe4ff;
+}
+.copyright_text{
+padding-top: 80px;
+}
+.copyright_text p{
+color: #636363;
+font-size: 14px;
+text-transform: uppercase;
+margin-bottom: 0px;
+letter-spacing: 0px;
+}
+.copyright_text a{
+	color:#afe4ff;
+	text-transform:uppercase;
+	font-weight:700;
+	text-decoration:none;
+	}
